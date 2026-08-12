@@ -367,7 +367,7 @@ h1{
   <!-- START SCREEN -->
   <div class="start-screen" id="startScreen">
     <div class="start-section">
-      <div class="start-label">1. Elegí el nivel de palabras</div>
+      <div class="start-label">1. Elige el nivel de palabras</div>
       <div class="option-grid" id="levelOptions">
         <div class="option-card" data-value="basico">
           <div class="option-title">Básico</div>
@@ -385,7 +385,7 @@ h1{
     </div>
 
     <div class="start-section">
-      <div class="start-label">2. Elegí el modo</div>
+      <div class="start-label">2. Elige el modo</div>
       <div class="option-grid" id="modeOptions">
         <div class="option-card" data-value="facil" data-seconds="0">
           <div class="option-title">Fácil</div>
@@ -460,24 +460,24 @@ h1{
 <script>
 const WORDS = {
   basico: [
-    {p:"SOL", h:"Astro que nos da luz durante el día"},
-    {p:"PAN", h:"Alimento que se hace con harina y se hornea"},
-    {p:"MAR", h:"Gran extensión de agua salada"},
+    {p:"SOL", h:"Brilla en el cielo de día y da calor"},
+    {p:"PAN", h:"Comida blanca que comemos en el desayuno"},
+    {p:"MAR", h:"Agua salada muy grande; vamos allí en verano"},
     {p:"PIE", h:"Parte del cuerpo que usamos para caminar"},
-    {p:"OJO", h:"Parte del cuerpo con la que vemos"},
-    {p:"LUZ", h:"Se enciende para ver en la oscuridad"},
+    {p:"OJO", h:"Parte del cuerpo que usamos para ver"},
+    {p:"LUZ", h:"La encendemos por la noche para ver"},
     {p:"CASA", h:"Lugar donde vive una familia"},
-    {p:"GATO", h:"Animal doméstico que maúlla"},
-    {p:"MESA", h:"Mueble donde comemos o trabajamos"},
-    {p:"AGUA", h:"Líquido transparente que bebemos"},
-    {p:"NIÑO", h:"Persona de poca edad"},
-    {p:"ROPA", h:"Lo que usamos para vestirnos"},
-    {p:"LIBRO", h:"Objeto con páginas que se lee"},
-    {p:"PLAYA", h:"Lugar con arena junto al mar"},
-    {p:"PLATO", h:"Se usa para servir la comida"},
-    {p:"VERDE", h:"Color del césped"},
-    {p:"NOCHE", h:"Parte del día en la que está oscuro"},
-    {p:"DEDOS", h:"Partes de la mano; son diez en total"}
+    {p:"GATO", h:"Animal pequeño que dice miau"},
+    {p:"MESA", h:"Mueble donde comemos o escribimos"},
+    {p:"AGUA", h:"Líquido que bebemos; no tiene color"},
+    {p:"NIÑO", h:"Persona pequeña que no es un adulto"},
+    {p:"ROPA", h:"La llevamos puesta; por ejemplo, una camisa"},
+    {p:"LIBRO", h:"Tiene páginas y lo leemos"},
+    {p:"PLAYA", h:"Lugar con arena, cerca del mar"},
+    {p:"PLATO", h:"Lo usamos para poner la comida"},
+    {p:"VERDE", h:"Color de las plantas y la hierba"},
+    {p:"NOCHE", h:"Momento del día en el que no hay sol"},
+    {p:"DEDOS", h:"Están en la mano; son diez"}
   ],
   intermedio: [
     {p:"LUNA", h:"Satélite natural de la Tierra"},
@@ -492,7 +492,15 @@ const WORDS = {
     {p:"TRABAJO", h:"Actividad que se hace para ganar dinero"},
     {p:"FAMILIA", h:"Grupo formado por padres, hijos y otros parientes"},
     {p:"ESCUELA", h:"Lugar donde los niños van a aprender"},
-    {p:"PALABRA", h:"Unidad de lenguaje formada por letras"}
+    {p:"PALABRA", h:"Unidad de lenguaje formada por letras"},
+    {p:"PAELLA", h:"Plato de arroz típico de Valencia"},
+    {p:"TORTILLA", h:"Plato español que se hace con huevo y patata"},
+    {p:"SIESTA", h:"Descanso breve que se hace después de comer"},
+    {p:"TAPAS", h:"Pequeñas raciones de comida para picar entre amigos"},
+    {p:"FRIOLERO", h:"Se dice de la persona a la que le cuesta soportar el frío"},
+    {p:"MADRILEÑO", h:"Persona que ha nacido en Madrid"},
+    {p:"ANDALUZ", h:"Persona o cosa que es de Andalucía"},
+    {p:"CASTELLANO", h:"Otro nombre que recibe el idioma español"}
   ],
   avanzado: [
     {p:"DUDA", h:"Falta de certeza sobre algo"},
@@ -505,7 +513,15 @@ const WORDS = {
     {p:"PREJUICIO", h:"Opinión previa, generalmente negativa, sin fundamento"},
     {p:"NOSTALGIA", h:"Sentimiento de añoranza por el pasado"},
     {p:"RESILIENCIA", h:"Capacidad de superar y adaptarse a la adversidad"},
-    {p:"INCERTIDUMBRE", h:"Falta de seguridad o certeza sobre el futuro"}
+    {p:"INCERTIDUMBRE", h:"Falta de seguridad o certeza sobre el futuro"},
+    {p:"FLAMENCO", h:"Arte español que combina cante, baile y guitarra"},
+    {p:"MEZQUITA", h:"Edificio religioso musulmán, como el de Córdoba"},
+    {p:"CATALÁN", h:"Idioma que se habla en Cataluña"},
+    {p:"MONARQUÍA", h:"Forma de gobierno en la que hay un rey o una reina"},
+    {p:"AYUNTAMIENTO", h:"Institución que gobierna una ciudad o un pueblo"},
+    {p:"ROMERÍA", h:"Peregrinación popular hacia una ermita o un santuario"},
+    {p:"GAZPACHO", h:"Sopa fría típica del sur de España, hecha con tomate"},
+    {p:"ALHAMBRA", h:"Palacio y fortaleza árabe situados en Granada"}
   ]
 };
 
